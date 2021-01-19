@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1645a8fb873ac52422af861b5e3aff49",
+    "content-hash": "3c8cbdde617a697e6e15e9a6f1825d2d",
     "packages": [
         {
             "name": "composer/installers",
@@ -204,6 +204,46 @@
                 }
             ],
             "time": "2020-04-13T13:17:36+00:00"
+        },
+        {
+            "name": "jarirengeling97/wp-migrate-db",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JariRengeling97/wp-migrate-db.git",
+                "reference": "c6f2befb3d6ea428967ebea9df11cf2a9daaed7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JariRengeling97/wp-migrate-db/zipball/c6f2befb3d6ea428967ebea9df11cf2a9daaed7d",
+                "reference": "c6f2befb3d6ea428967ebea9df11cf2a9daaed7d",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jari Rengeling",
+                    "email": "jari@bureauvdo.nl",
+                    "homepage": "https://bureauvdo.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WP Migrate DB - PRO",
+            "homepage": "https://bureauvdo.nl/",
+            "keywords": [
+                "plugin",
+                "wp"
+            ],
+            "support": {
+                "issues": "https://github.com/JariRengeling97/wp-migrate-db/issues",
+                "source": "https://github.com/JariRengeling97/wp-migrate-db/tree/main"
+            },
+            "time": "2021-01-11T12:38:34+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1284,6 +1324,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "jarirengeling97/wp-migrate-db": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
@@ -1292,5 +1333,5 @@
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

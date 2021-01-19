@@ -28,6 +28,11 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.org",
+      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
     }
   ],
   "require": {
@@ -38,7 +43,8 @@
     "roots/bedrock-autoloader": "^1.0",
     "roots/wordpress": "5.6",
     "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "jarirengeling97/wp-migrate-db": "dev-main"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.8",
